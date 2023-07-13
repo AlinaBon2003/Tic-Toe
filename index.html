@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="./javascript.js"></script>
+    <title>Крестики-нолики</title>
+</head>
+<body>
+<main class="background">
+    <section class="title">
+        <h1>Крестики-нолики</h1>
+    </section>
+
+    <section class="Counter">
+        <div class="score0"></div>
+        <div class="score1"></div>
+    </section>
+
+
+    <section class="display">
+        ХОД <span class="display-player playerX">X</span>
+    </section>
+    <section class="pole">
+        <div class="kletka"></div>
+        <div class="kletka"></div>
+        <div class="kletka"></div>
+        <div class="kletka"></div>
+        <div class="kletka"></div>
+        <div class="kletka"></div>
+        <div class="kletka"></div>
+        <div class="kletka"></div>
+        <div class="kletka"></div>
+    </section>
+    <section class="display resultat hide"></section>
+    <section class="controls">
+        <button id="Newgame">Новая игра (сброс счёта)</button>
+
+        <div class="menu" onclick="document.location='menu.html'">
+            <section class="TITLE1">
+                <h1>МЕНЮ</h1>
+            </section>
+        </div>
+
+        <button id="reset">Отчистить игровое поле</button>
+    </section>
+
+</main>
+</body>
+</html>
